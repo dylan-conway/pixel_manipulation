@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
+  "repostitory": {
+    "type": "git",
+    "url": "git+https://github.com/dylan-conway/pixel_manipulation.git"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "start": "webpack-dev-server"
   },
   "author": "Dylan Conway",
   "license": "ISC",
